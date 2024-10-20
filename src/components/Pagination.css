@@ -1,0 +1,21 @@
+/* Pagination.css */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
